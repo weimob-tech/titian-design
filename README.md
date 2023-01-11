@@ -2,11 +2,6 @@
 <img src="https://cdn2.weimob.com/saas/saas-fe-sirius-orion-node/production/157/titian-logo.png" width="200" />
 </p>
 
-<p align="center" style="text-align: center">
-  <img src="https://img.shields.io/npm/v/titian-h5.svg?style=flat&color=fa2c19" />
-  <img src="https://img.shields.io/npm/dm/titian-h5.svg?style=flat-square&color=green" />
-</p>
-
 <p align="center">
   🖥️&nbsp;<a href="https://titian.design.weimob.com/">文档网站</a>
   &nbsp;&nbsp;&nbsp;&nbsp;
