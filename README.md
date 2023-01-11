@@ -35,14 +35,13 @@
 | [@titian-design/snippets](https://www.npmjs.com/package/@titian-design/snippets)                         | [titian-weapp](https://github.com/weimob-tech/titian-weapp)/packages/snippets             | Titian 小程序的 VS Code 提示插件                  | `beta` |
 
 ## Titian 是什么？
----
-微盟重磅推出多渠道移动端组件库——Titian。作为移动端前台的“底层”能力，它伴随了“微盟 WOS -新商业操作系统”的研发历程，经历了从无序到有序，从稚嫩到成熟的蜕变，并助力了需要不断实现的“产品一体化、体验一体化、服务一体化、数据一体化和开放一体化”的 WOS 终极形态。
 
-配图1
+
+Titian 作为移动端前台的“底层”能力，它伴随了“微盟 WOS -新商业操作系统”的研发历程，经历了从无序到有序，从稚嫩到成熟的蜕变，并助力了需要不断实现的“产品一体化、体验一体化、服务一体化、数据一体化和开放一体化”的 WOS 终极形态。
+
 
 经过一年多的不断进化，Titian 取得了大量核心业务应用及有效性验证。Titian 提供了清晰统一的 API ，满足多渠道小程序与多前端框架能力，极大的降低了研发成本与提升需求流转效率。同时，Titian 也是体验良好的重要保障，遵循用户习惯、维持用户心智，为业务提供了有序一致的产品体验。
 
-配图2
 
 ## 设计理念
 
