@@ -1,5 +1,6 @@
 <img src="https://cdn2.weimob.com/saas/saas-fe-sirius-orion-node/production/157/github_banner06.png"/>
 &nbsp;
+
 <div align="center">
 
 [![NPM][npm-badge]][npm-url] [![FIGMA][figma-badge]][figma-url] [![LICENSE][license-badge]][license-url] [![NPM downloads][download-image]][download-url]
@@ -22,28 +23,7 @@
 </div>
 
 &nbsp;
-### 仓库
 
-| npm 包                                                                                   | :octocat:github 仓库                                        | 子包路径        | 描述                                   | 状态   |
-| ---------------------------------------------------------------------------------------- | ----------------------------------------------------------- | --------------- | -------------------------------------- | ------ |
-| [@titian-design/h5](https://www.npmjs.com/package/@titian-design/h5)                     | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/h5    | Web Components 技术栈                  | `beta` |
-| [@titian-design/mobile-vue](https://www.npmjs.com/package/@titian-design/mobile-vue)     | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/vue   | Vue 3 技术栈，基于 `@titian-design/h5` | `beta` |
-| [@titian-design/mobile-react](https://www.npmjs.com/package/@titian-design/mobile-react) | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/react | React 技术栈，基于 `@titian-design/h5` | `beta` |
-| [@titian-design/weapp](https://www.npmjs.com/package/@titian-design/weapp)               | [titian-weapp](https://github.com/weimob-tech/titian-weapp) | /packages/weapp | 纯微信小程序                           | `beta` |
-
-&nbsp;
-###   解决方案及周边
-
-| npm 包                                                                                                   | :octocat:github 仓库                                        | 子包路径                       | 描述                                              | 状态   |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------ | ------------------------------------------------- | ------ |
-| [@titian-design/touchemualtor](https://www.npmjs.com/package/@titian-design/touchemualtor)               | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/touchemualtor        | 在 PC 上使用 touch 事件，支持 Web Components 冒泡 | `beta` |
-| [@titian-design/eslint-plugin](https://www.npmjs.com/package/@titian-design/eslint-plugin)               | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/eslint-plugin        | eslint 插件                                       | `beta` |
-| [@titian-design/cli](https://www.npmjs.com/package/@titian-design/cli)                                   | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/cli                  | cli 工具                                          | `beta` |
-| [@titian-design/compiler](https://www.npmjs.com/package/@titian-design/compiler)                         | [titian-h5](https://github.com/weimob-tech/titian-h5)       | /packages/compiler             | Titian 的打包工具                                 | `beta` |
-| [@titian-design/prettier-plugin-wxml](https://www.npmjs.com/package/@titian-design/prettier-plugin-wxml) | [titian-weapp](https://github.com/weimob-tech/titian-weapp) | /packages/prettier-plugin-wxml | WXML 格式化工具                                   | `beta` |
-| [@titian-design/snippets](https://www.npmjs.com/package/@titian-design/snippets)                         | [titian-weapp](https://github.com/weimob-tech/titian-weapp) | /packages/snippets             | Titian 小程序 VS Code 提示插件                    | `beta` |
-
-&nbsp;
 ##  简介
 
 经过不断地优化，Titian 取得了大量核心业务应用及有效性验证。Titian 提供了清晰统一的 API ，满足多渠道小程序与多前端框架能力，极大的降低了研发成本与提升需求流转效率。同时，Titian 也是体验良好的重要保障，遵循用户习惯、维持用户心智，为业务提供了有序一致的产品体验。
@@ -60,7 +40,95 @@
 - [动效 Motion](http://titian.design.weimob.com/docs/design/design/motion/)
 
 &nbsp;
+
+## 仓库
+
+### Web Components
+
+> Beta
+
+**npm**
+
+[@titian-design/h5](https://www.npmjs.com/package/@titian-design/h5)
+
+**repo**
+
+[titian-h5](https://github.com/weimob-tech/titian-h5)
+
+**子包**
+
+/packages/h5
+
+&nbsp;
+
+### Vue 3
+
+> Beta
+
+##### npm
+
+[@titian-design/mobile-vue](https://www.npmjs.com/package/@titian-design/mobile-vue)
+
+##### repo
+
+[titian-h5](https://github.com/weimob-tech/titian-h5)
+
+**子包**
+
+/packages/vue
+
+&nbsp;
+
+### React
+
+> Beta
+
+##### npm
+
+[@titian-design/mobile-react](https://www.npmjs.com/package/@titian-design/mobile-react)
+
+##### repo
+
+[titian-h5](https://github.com/weimob-tech/titian-h5)
+
+**子包**
+
+/packages/react
+
+&nbsp;
+
+### 原生微信小程序
+
+> Beta
+
+**npm**
+
+[@titian-design/weapp](https://www.npmjs.com/package/@titian-design/weapp)
+
+**repo**
+
+[titian-weapp](https://github.com/weimob-tech/titian-weapp)
+
+**子包**
+
+/packages/weapp
+
+&nbsp;
+
+##   解决方案及周边
+
+| 类目                                              | npm 包                                                       | 仓库目录                                                     | 状态   |
+| ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------ |
+| 在 PC 上使用 touch 事件，支持 Web Components 冒泡 | [@titian-design/touchemualtor](https://www.npmjs.com/package/@titian-design/touchemualtor) | [titian-h5](https://github.com/weimob-tech/titian-h5)/packages/touchemualtor | `beta` |
+| eslint 插件                                       | [@titian-design/eslint-plugin](https://www.npmjs.com/package/@titian-design/eslint-plugin) | [titian-h5](https://github.com/weimob-tech/titian-h5)/packages/eslint-plugin | `beta` |
+| cli 工具                                          | [@titian-design/cli](https://www.npmjs.com/package/@titian-design/cli) | [titian-h5](https://github.com/weimob-tech/titian-h5)/packages/cli | `beta` |
+| Titian 的打包工具                                 | [@titian-design/compiler](https://www.npmjs.com/package/@titian-design/compiler) | [titian-h5](https://github.com/weimob-tech/titian-h5)/packages/compiler | `beta` |
+| WXML 格式化工具                                   | [@titian-design/prettier-plugin-wxml](https://www.npmjs.com/package/@titian-design/prettier-plugin-wxml) | [titian-weapp](https://github.com/weimob-tech/titian-weapp)/packages/prettier-plugin-wxml | `beta` |
+| Titian 小程序 VS Code 提示插件                    | [@titian-design/snippets](https://www.npmjs.com/package/@titian-design/snippets) | [titian-weapp](https://github.com/weimob-tech/titian-weapp)/packages/snippets | `beta` |
+
+&nbsp;
+
 ## 协议
 
 Titian Design 使用 [MIT 协议](LICENSE)
-  
+
